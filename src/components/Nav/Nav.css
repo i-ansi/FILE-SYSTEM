@@ -1,0 +1,131 @@
+.nav11rightbtn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 35px;
+  background-color: #0177bd;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.nav11rightbtn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav11main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav11scroll {
+  overflow: auto;
+  white-space: nowrap;
+}
+.nav11breadcrumbs {
+  background: none;
+  border: none;
+  font-size: large;
+  color: gray;
+  cursor: pointer;
+}
+.nav11breadcrumbs:hover {
+  color: black;
+}
+.nav11navleft {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.nav11navright {
+  width: 50%;
+}
+
+#nav11search {
+  margin-top: 2.5%;
+  border: none;
+  border-radius: 10px;
+  margin-left: 112px;
+  width: 80%;
+  height: 40px;
+  padding-left: 15px;
+  border: 0.5px solid rgb(175, 175, 175);
+  cursor: pointer;
+}
+
+#nav11search::placeholder {
+  justify-content: space-between;
+}
+
+.nav11grid {
+  width: 29%;
+  /* border-radius: 20px; */
+  margin-left: 120px;
+  position: fixed;
+
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0.19);
+}
+.nav11check {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav11check:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+#nav11search:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav11list {
+  width: 60%;
+  height: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav11list:hover {
+  background-color: rgba(0, 0, 0, 0.19);
+}
+#nav11breadcrumb {
+  overflow: auto;
+  white-space: nowrap;
+}
+@media screen and (max-width: 768px) {
+  .nav11navleft {
+    width: 100%;
+    margin-left: 18px;
+    display: flex;
+    margin-top: 5px;
+  }
+  .nav11navright {
+    width: 100%;
+    margin-left: 0;
+  }
+  #nav11search {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .nav11main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav11content {
+    margin-left: 10px;
+  }
+  .nav11grid {
+    width: 86%;
+    margin-left: 27.5px;
+  }
+}

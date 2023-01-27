@@ -1,0 +1,168 @@
+.foldersBar11main {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+.foldersBar11MenuBar {
+  width: 15%;
+  background-color: rgba(51, 70, 101, 0.4);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 90vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.foldersBar11btn {
+  cursor: "pointer";
+}
+
+#right44btn {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 35px;
+  background-color: #0177bd;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.foldersBar11imgham {
+  width: 35px;
+  height: 35px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+.foldersBar11FoldersBar {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 90vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow-y: scroll;
+}
+.foldersBar11new {
+  padding: 4px;
+}
+#foldersBar11img-error {
+  width: 100px;
+  height: 100px;
+}
+.foldersBar11errorimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.foldersBar11imgclicked {
+  height: 50px;
+  width: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right44addfolder {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 105px;
+  border: 2px dashed rgb(207, 204, 204);
+}
+
+.right44folder {
+  width: 10px;
+  height: 10px;
+}
+
+.foldersBar11img {
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.foldersBar11folders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 15px;
+  /* background-color: aqua; */
+}
+#right44file {
+  margin-top: 10px;
+  width: 60px;
+  height: 70px;
+  margin-bottom: 16px;
+}
+
+.foldersBar11nav {
+  width: 100%;
+  height: 6%;
+  position: static;
+}
+
+.foldersBar11content {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.foldersBar11grid-container {
+  display: grid;
+  grid-template-columns:
+    auto auto auto auto auto
+    auto auto auto auto auto;
+}
+
+.foldersBar11grid-container-img {
+  margin-left: 60px;
+}
+
+.foldersBar11dis {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .foldersBar11MenuBar {
+    display: none;
+  }
+
+  .foldersBar11FoldersBar {
+    width: 100%;
+    border-radius: 30px;
+    height: 100vh;
+    border-radius: 0;
+    margin-top: 0;
+    box-shadow: none;
+  }
+  .foldersBar11dis {
+    display: contents;
+  }
+  .foldersBar11grid-container {
+    grid-template-columns: auto auto auto;
+  }
+  .foldersBar11grid-container-img {
+    margin-left: 40px;
+  }
+}

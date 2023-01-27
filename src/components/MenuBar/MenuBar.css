@@ -1,0 +1,53 @@
+.menuBar11Main {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  /* white-space: nowrap; */
+}
+
+.menuBar11tree {
+  margin-top: 10px;
+  margin-left: 35px;
+  /* color: white; */
+}
+.menuBar11row {
+  margin-top: 10px;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+#menuBar11red {
+  background-color: #ed4040;
+}
+
+#menuBar11span {
+  margin-left: 18px;
+  margin-top: 15px;
+  /* color: white; */
+}
+
+#menuBar11red:hover {
+  cursor: pointer;
+}
+
+#menuBar11yellow {
+  background-color: #ecb62b;
+}
+
+#menuBar11green {
+  background-color: #23e05a;
+}
+
+.menuBar11dot {
+  color: rgb(66, 63, 63);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 26px 0 rgba(0, 0, 0, 0.19);
+}
